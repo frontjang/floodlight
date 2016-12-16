@@ -6,7 +6,7 @@
   </appender>
   <appender name="EV_WARN_ERR" class="net.floodlightcontroller.debugevent.DebugEventAppender">
   </appender>
-  <root level="DEBUG">
+  <root level="WARN">
     <appender-ref ref="STDOUT" />
     <appender-ref ref="EV_WARN_ERR" />
   </root>
@@ -21,4 +21,5 @@
   <logger name="net.floodlightcontroller.core" level="INFO"></logger>
   <logger name="net.floodlightcontroller.topology" level="INFO" ></logger>
   <logger name="org.projectfloodlight.openflow" level="INFO" ></logger>
+  <logger name="net.floodlightcontroller.pktinhistorylog" level="INFO" ></logger>
 </configuration>
